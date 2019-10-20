@@ -1,0 +1,30 @@
+<div class="container">
+
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+.film {
+	width: 100%;
+	background-color: #222;
+}
+
+
+<section>
+	<div class="video1">
+		<div class="container">
+			<video width="1000" height="563" poster="video/photo1.jpg" controls>
+				<source src="video/musicvideo.mp4" type="video/mp4">
+			</video>
+		</div>
+</section>
+
+
+.film {
+	width: 100%;
+	height: 563px;
+	background-color: #617a7d;
+}
