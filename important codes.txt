@@ -28,3 +28,93 @@
 	height: 563px;
 	background-color: #617a7d;
 }
+
+
+
+
+
+
+body {background-color: white;}
+
+.firstpageheader {
+	font-family: dealerplate;
+	font-size: 80px;
+	text-align: center;
+	margin-right: 10px;
+	color: white;
+	text-decoration: bold;
+}
+
+
+
+
+
+<div class="articles">
+		<div class="container">
+			<article>
+				<div></div>
+				<h2>Best Games</h2>
+				<p>In this section you will find the best games of all time.</p>
+			</article>	
+		</div>	
+	</div>	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="second_background">
+		<div class="container">
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+	<div class="firstpageheader">
+		<h1>My Favorite Games</h1>
+	</div>	
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+		</div>
+	</div>

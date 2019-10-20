@@ -52,10 +52,15 @@ table {
 	src: url("../fonts/dealerplate_california.ttf");
 }
 
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
 a {
 	color: black;
 	text-decoration: none;
-	padding: 15px;
+	padding: 8px;
 }
 
 header {
@@ -66,13 +71,8 @@ header {
 
 header img {
 	margin-top: 31px;
-	margin-left: 90px;
+	margin-left: 35px;
 	float: left;
-}
-
-.container {
-	width: 100%;
-	margin: 0 auto;
 }
 
 nav {
@@ -85,12 +85,12 @@ nav ul {
 
 nav ul li {
 	display: inline-block;
-	margin-left: 98px;
+	margin-left: 5px;
 }
 
 nav ul li a {
 	font-family: Arial;
-	font-size: 19px;
+	font-size: 15px;
 }
 
 .second_background {
@@ -100,7 +100,6 @@ nav ul li a {
 	color: white;
 	text-align: center;
 	font-family: header2font;
-	margin-right: 10px;
 }
 
 .articles {
@@ -115,7 +114,10 @@ nav ul li a {
 	text-align: center;
 }
 
-body {background-color: white;}
+.articles article h2 {
+	text-align: center;
+	text-transform: uppercase;
+}
 
 .firstpageheader {
 	font-family: dealerplate;
@@ -135,5 +137,5 @@ footer {
 footer h1 {
 	text-align: center;
 	color: white;
-	text-decoration: underline;
+	font-size: 18px;
 }
