@@ -76,9 +76,15 @@ header {
 }
 
 header img {
+<<<<<<< HEAD
 	margin-top: 31px;
 	margin-left: 35px;
 	float: left;
+=======
+	margin-top: 50px;
+	margin-left: 50%;
+	background-size: 200px
+>>>>>>> 60797fc1aec8d15fc97b73c309d04b2405a7ce5e
 }
 
 nav {
@@ -398,3 +404,15 @@ button {
 	margin-left: 65px;
 }
 
+<<<<<<< HEAD
+=======
+.logo {
+	background-size: 100px;
+}
+
+#aaaa {
+	font-family: Calibri;
+	text-align: center;
+	font-size: 50px;
+}
+>>>>>>> 60797fc1aec8d15fc97b73c309d04b2405a7ce5e
