@@ -76,9 +76,9 @@ header {
 }
 
 header img {
-	margin-top: 50px;
-	margin-left: 850px;
-	background-size: 200px
+	margin-top: 31px;
+	margin-left: 35px;
+	float: left;
 }
 
 nav {
@@ -398,12 +398,3 @@ button {
 	margin-left: 65px;
 }
 
-.logo {
-	background-size: 100px;
-}
-
-#aaaa {
-	font-family: Calibri;
-	text-align: center;
-	font-size: 50px;
-}
