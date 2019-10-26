@@ -423,13 +423,12 @@ button {
 
 .updatestablist {
 	text-align: left;
-	margin-left: 29%;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1100px) {
 	.updatestablist {
 	text-align: left;
-	margin-left: 29%;
+	margin-left: 10%;
 	font-size: 20px;
 	}
 	#abouttextfromfirstpage {
@@ -445,5 +444,10 @@ button {
 	color: white;
 	text-align: center;
 	font-family: header2font;
+	}
+	footer {
+	width: 1000px;
+	background-color: #4f6e70;
+	padding: 50px 0px;
 	}
 }
