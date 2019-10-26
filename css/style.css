@@ -222,7 +222,6 @@ button {
 	color: white;
 	font-size: 27px;
 	font-family: Calibri;
-
 }
 
 #pricetablecode {
@@ -427,3 +426,24 @@ button {
 	margin-left: 29%;
 }
 
+@media (max-width: 700px) {
+	.updatestablist {
+	text-align: left;
+	margin-left: 29%;
+	font-size: 20px;
+	}
+	#abouttextfromfirstpage {
+	text-align: center;
+	color: white;
+	font-size: 23px;
+	font-family: Calibri;
+	}
+	.second_background {
+	background-color: #85a8ab;
+	width: 1000px;
+	font-size: 21px;
+	color: white;
+	text-align: center;
+	font-family: header2font;
+	}
+}
