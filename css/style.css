@@ -228,7 +228,7 @@ button {
  	 font-family: arial, sans-serif;
  	 border-collapse: collapse;
   	 width: 900px;
-  	 margin-left: 40px;
+  	 margin-left: 50px;
 }
 
 .pricetabletext {
@@ -423,12 +423,13 @@ button {
 
 .updatestablist {
 	text-align: left;
+	margin-left: 24%;
 }
 
 @media (max-width: 1100px) {
 	.updatestablist {
 	text-align: left;
-	margin-left: 10%;
+	margin-left: 18%;
 	font-size: 20px;
 	}
 	#abouttextfromfirstpage {
