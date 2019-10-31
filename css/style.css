@@ -68,14 +68,14 @@ a {
 
 header {
 	background-color: white;
-	height: 148px;
+	height: 117px;
 	width: 100%;
 	position: sticky;
 	top: 0;
 }
 
 header img {
-	margin-top: 31px;
+	margin-top: 20px;
 	margin-left: 35px;
 	float: left;
 }
@@ -85,7 +85,7 @@ nav {
 }
 
 nav ul {
-	margin-top: 47px;
+	margin-top: 32px;
 }
 
 nav ul li {
@@ -467,7 +467,7 @@ button {
 }
 
 #header-fix-space { 
-	height: 148px; 
+	height: 117px; 
 }
 
 #fixed-header {
