@@ -54,6 +54,16 @@ table {
 	src: url("../fonts/lemonbrush.otf");
 }
 
+@font-face {
+	font-family: deadstock;
+	src: url("../fonts/Dead_Stock.ttf");
+}
+
+@font-face {
+	font-family: killthenoise;
+	src: url("../fonts/Kill_The_Noise.otf");
+}
+
 .container {
 	width: 1000px;
 	margin: 0 auto;
@@ -66,12 +76,35 @@ a {
 	font-family: Calibri;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 0px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #8ddce3; 
+  border-radius: 0px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #7abec4; 
+}
+
 header {
 	background-color: white;
 	height: 117px;
 	width: 100%;
 	position: sticky;
 	top: 0;
+	z-index: 99;
 }
 
 header img {
@@ -148,16 +181,16 @@ nav ul li a.active {
 footer {
 	width: 100%;
 	background-color: #4f6e70;
-	padding: 50px 0px;
+	padding: 17px 0px;
 }
 
 footer h1 {
 	text-align: center;
 	color: white;
-	font-size: 32px;
+	font-size: 25px;
 	font-family: Calibri;
-	margin-bottom: 17px;
-	margin-top: -10px;
+	margin-bottom: 8px;
+	margin-top: -6px;
 }
 
 .second_background {
@@ -167,6 +200,7 @@ footer h1 {
 	color: white;
 	text-align: center;
 	font-family: header2font;
+	z-index: -1;
 }
 
 button:hover {
@@ -227,7 +261,7 @@ button {
 #footertext {
 	text-align: center;
 	color: white;
-	font-size: 20px;
+	font-size: 19px;
 }
 
 #abouttextfromfirstpage {
@@ -439,6 +473,9 @@ button {
 	margin-left: 21%;
 }
 
+
+
+
 @media (max-width: 1100px) {
 	.updatestablist {
 	text-align: left;
@@ -462,9 +499,71 @@ button {
 	footer {
 	width: 1000px;
 	background-color: #4f6e70;
-	padding: 50px 0px;
+	padding: 17px 0px;
+	}
+	#footertext {
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	}
+	#cyberpunkwiki {
+		display: none;
+	}
+	/* width */
+	::-webkit-scrollbar {
+  		display: none;
+	}
+
+	/* Track */
+	::-webkit-scrollbar-track {
+	  display: none;
+	}
+	 
+	/* Handle */
+	::-webkit-scrollbar-thumb {
+	  display: none;
+	}
+
+	/* Handle on hover */
+	::-webkit-scrollbar-thumb:hover {
+	 display: none; 
+	}
+	.cyberpunk2077textfromupcominggames {
+		display: none;
+	}
+	.watchdogslegiontextfromupcominggames {
+		display: none;
+	}
+	.dyinglight2textfromupcominggames {
+		display: none;
+	}
+	.dyinglight2textfromupcominggames {
+		display: none;
+	}
+	#watchdogslegionwiki {
+		display: none;
+	}
+	#nfsheatwiki {
+		display: none;
+	}
+	#dyinglight2wiki {
+		display: none;
+	}
+	.imghometabcyberpunk2077logo {
+		display: none;
+	}
+	.imghometabwatchdogslegionlogo {
+		display: none;
+	}
+	.imghometabnfsheatlogo {
+		display: none;
+	}
+	.imghometabdyinglight2logo {
+		display: none;
 	}
 }
+
+
 
 #header-fix-space { 
 	height: 117px; 
@@ -476,5 +575,388 @@ button {
 	position: fixed;
 	top: 0px;
 	left: 0px;
+	z-index: 99;
+}
+
+.imghometabcyberpunk2077 {
+	width: 100%;
+	height: 846px;
+	background-image: url("../Photos/HomeGamesTab/cyberpunk2077t.png");
+	background-repeat: no-repeat;
+	background-size: 1504px;
+	margin-top: 0px;
+	margin-left: 0px; 
+}
+
+.imghometabcyberpunk2077logo {
+	width: 100%;
+	height: 195px;
+	background-image: url("../Photos/HomeGamesTab/cyberpunk2077logo.png");
+	background-repeat: no-repeat;
+	background-size: 500px;
+	margin-top: 0px;
+	margin-right: -10px;
+	position: absolute;
+	background-position: 1250px;
+}
+
+.cyberpunk2077textfromupcominggames {
+	position: absolute;
+	padding-top: 200px;
+	padding-left: 1160px;
+	margin-right: 70px;
+	font-family: dealerplate;
+	font-size: 32px;
+}
+
+#cyberpunkwiki {
+	position: absolute;
+	margin-top: 770px;
+	margin-left: 428px;
+	font-family: dealerplate;
+	color: white;
+	text-align: right;
+	text-decoration: underline;
+}
+
+.imghometabwatchdogslegion {
+	width: 100%;
+	height: 846px;
+	background-image: url("../Photos/HomeGamesTab/watchdogslegiont.png");
+	background-repeat: no-repeat;
+	background-size: 1504px;
+	margin-top: 0px;
+	background-position: right;
+}
+
+.imghometabwatchdogslegionlogo {
+	width: 100%;
+	height: 210px;
+	background-image: url("../Photos/HomeGamesTab/watchdogslegionlogo.png");
+	background-repeat: no-repeat;
+	background-size: 710px;
+	margin-top: 0px;
+	position: absolute;
+	background-position: -55px;
+}
+
+.watchdogslegiontextfromupcominggames {
+	position: absolute;
+	padding-top: 200px;
+	padding-right: 1340px;
+	margin-left: 40px;
+	font-family: dealerplate;
+	font-size: 30px;
+}
+
+#watchdogslegionwiki {
+	position: absolute;
+	left: 181px;
+	margin-top: 790px;
+	font-family: dealerplate;
+	color: white;
+	text-decoration: underline;
+}
+
+										#newupdatetemp1 {
+											text-align: center;
+											margin-left: 15px;
+										}
+
+										#newupdatetemparrow1 {
+											text-align: center;
+											margin-left: 15px;
+										}
+
+										#newupdatetemp2 {
+											text-align: right;
+											margin-right: 84px;
+										}
+
+										#newupdatetemparrow2 {
+											text-align: right;
+											margin-right: 150px;
+										}										
+
+.imghometabnfsheatlogo {
+	width: 100%;
+	height: 220px;
+	background-image: url("../Photos/HomeGamesTab/nfsheatlogo.png");
+	background-repeat: no-repeat;
+	background-size: 400px;
+	margin-top: 20px;
+	margin-right: -20px;
+	position: absolute;
+	background-position: 1400px;
+	z-index: 1;
+}
+
+.imghometabnfsheat {
+	width: 100%;
+	height: 846px;
+	background-image: url("../Photos/HomeGamesTab/nfsheatt.png");
+	background-repeat: no-repeat;
+	background-size: 1504px;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+#nfsheatwiki {
+	position: absolute;
+	margin-top: 770px;
+	right: 183px;
+	font-family: dealerplate;
+	color: white;
+	text-align: right;
+	text-decoration: underline;
+}
+
+.nfsheattextfromupcominggames {
+	position: absolute;
+	padding-top: 180px;
+	padding-left: 1350px;
+	margin-right: 50px;
+	font-family: dealerplate;
+	font-size: 40px;
+}
+
+.imghometabdyinglight2logo {
+	width: 100%;
+	height: 210px;
+	background-image: url("../Photos/HomeGamesTab/dyinglight2logo.png");
+	background-repeat: no-repeat;
+	background-size: 500px;
+	margin-top: 0px;
+	position: absolute;
+	background-position: 55px;
+}
+
+.imghometabdyinglight2 {
+	width: 100%;
+	height: 846px;
+	background-image: url("../Photos/HomeGamesTab/dyinglight2t.png");
+	background-repeat: no-repeat;
+	background-size: 1504px;
+	margin-top: 0px;
+	background-position: right;
+}
+
+#dyinglight2wiki {
+	position: absolute;
+	left: 180px;
+	margin-top: 790px;
+	font-family: dealerplate;
+	color: white;
+	text-decoration: underline;
+}
+
+.dyinglight2textfromupcominggames {
+	position: absolute;
+	padding-top: 190px;
+	padding-right: 1340px;
+	margin-left: 40px;
+	font-family: dealerplate;
+	font-size: 31px;
+}
+
+.imghometabborderlands3logo {
+	width: 100%;
+	height: 195px;
+	background-image: url("../Photos/HomeGamesTab/borderlands3logo.png");
+	background-repeat: no-repeat;
+	background-size: 500px;
+	margin-top: 0px;
+	margin-right: -10px;
+	position: absolute;
+	background-position: 1300px;
+}
+
+.imghometabborderlands3 {
+	width: 100%;
+	height: 846px;
+	background-image: url("../Photos/HomeGamesTab/borderlands3t.png");
+	background-repeat: no-repeat;
+	background-size: 1504px;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+#borderlands3wiki {
+	position: absolute;
+	margin-top: 788px;
+	right: 240px;
+	font-family: dealerplate;
+	color: white;
+	text-align: right;
+	text-decoration: underline;
+}
+
+.borderlands3textfromnewgames {
+	position: absolute;
+	padding-top: 195px;
+	padding-left: 1250px;
+	margin-right: 60px;
+	font-family: dealerplate;
+	font-size: 32px;
+}
+
+.imghometabrdr2logo {
+	width: 100%;
+	height: 210px;
+	background-image: url("../Photos/HomeGamesTab/rdr2logo.png");
+	background-repeat: no-repeat;
+	background-size: 400px;
+	margin-top: 0px;
+	position: absolute;
+	background-position: 110px;
+}
+
+.imghometabrdr2 {
+	width: 100%;
+	height: 846px;
+	background-image: url("../Photos/HomeGamesTab/rdr2t.png");
+	background-repeat: no-repeat;
+	background-size: 1504px;
+	margin-top: 0px;
+	background-position: right;
+}
+
+#rdr2wiki {
+	position: absolute;
+	left: 185px;
+	margin-top: 790px;
+	font-family: dealerplate;
+	color: white;
+	text-decoration: underline;
+}
+
+.rdr2textfromnewgames {
+	position: absolute;
+	padding-top: 185px;
+	padding-right: 1300px;
+	margin-left: 25px;
+	font-family: dealerplate;
+	font-size: 35px;
+}
+
+.imghometabcodrlogo {
+	width: 100%;
+	height: 195px;
+	background-image: url("../Photos/HomeGamesTab/codrlogo.png");
+	background-repeat: no-repeat;
+	background-size: 500px;
+	margin-top: 0px;
+	margin-right: -10px;
+	position: absolute;
+	background-position: 1300px;
+}
+
+.imghometabcodr {
+	width: 100%;
+	height: 846px;
+	background-image: url("../Photos/HomeGamesTab/codrt.png");
+	background-repeat: no-repeat;
+	background-size: 1504px;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+#codrwiki {
+	position: absolute;
+	margin-top: 788px;
+	right: 240px;
+	font-family: dealerplate;
+	color: white;
+	text-align: right;
+	text-decoration: underline;
+}
+
+.codrtextfromnewgames {
+	position: absolute;
+	padding-top: 195px;
+	padding-left: 1250px;
+	margin-right: 60px;
+	font-family: dealerplate;
+	font-size: 36px;
+}
+
+.imghometabfifa20logo {
+	width: 100%;
+	height: 210px;
+	background-image: url("../Photos/HomeGamesTab/fifa20logo.png");
+	background-repeat: no-repeat;
+	background-size: 400px;
+	margin-top: 0px;
+	position: absolute;
+	background-position: 110px;
+}
+
+.imghometabfifa20 {
+	width: 100%;
+	height: 846px;
+	background-image: url("../Photos/HomeGamesTab/fifa20t.png");
+	background-repeat: no-repeat;
+	background-size: 1504px;
+	margin-top: 0px;
+	background-position: right;
+}
+
+#fifa20wiki {
+	position: absolute;
+	left: 185px;
+	margin-top: 785px;
+	font-family: dealerplate;
+	color: white;
+	text-decoration: underline;
+}
+
+.fifa20textfromnewgames {
+	position: absolute;
+	padding-top: 185px;
+	padding-right: 1300px;
+	margin-left: 25px;
+	font-family: dealerplate;
+	font-size: 34px;
+}
+
+.imghometabgridlogo {
+	width: 100%;
+	height: 195px;
+	background-image: url("../Photos/HomeGamesTab/gridlogo.png");
+	background-repeat: no-repeat;
+	background-size: 500px;
+	margin-top: 10px;
+	margin-right: -10px;
+	position: absolute;
+	background-position: 1300px;
+}
+
+.imghometabgrid {
+	width: 100%;
+	height: 846px;
+	background-image: url("../Photos/HomeGamesTab/gridt.png");
+	background-repeat: no-repeat;
+	background-size: 1504px;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+#gridwiki {
+	position: absolute;
+	margin-top: 788px;
+	right: 235px;
+	font-family: dealerplate;
+	color: white;
+	text-align: right;
+	text-decoration: underline;
+}
+
+.gridtextfromnewgames {
+	position: absolute;
+	padding-top: 210px;
+	padding-left: 1250px;
+	margin-right: 60px;
+	font-family: dealerplate;
+	font-size: 37px;
 }
 
