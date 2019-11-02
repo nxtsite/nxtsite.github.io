@@ -1016,6 +1016,7 @@ button {
 .imghometabfh4 {
 	width: 100%;
 	height: 846px;
+	max-height: 60%;
 	background-image: url("../Photos/HomeGamesTab/fh4t.png");
 	background-repeat: no-repeat;
 	background-size: 1504px;
@@ -1056,6 +1057,7 @@ button {
 .imghometabmetroexodus {
 	width: 100%;
 	height: 846px;
+	max-height: 60%;
 	background-image: url("../Photos/HomeGamesTab/metroexodust.png");
 	background-repeat: no-repeat;
 	background-size: 1504px;
