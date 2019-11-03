@@ -475,6 +475,11 @@ button {
 
 
 
+@media (max-width: 2000px) {
+	
+}
+
+
 
 @media (max-width: 1100px) {
 	.updatestablist {
@@ -528,39 +533,6 @@ button {
 	::-webkit-scrollbar-thumb:hover {
 	 display: none; 
 	}
-	.cyberpunk2077textfromupcominggames {
-		display: none;
-	}
-	.watchdogslegiontextfromupcominggames {
-		display: none;
-	}
-	.dyinglight2textfromupcominggames {
-		display: none;
-	}
-	.dyinglight2textfromupcominggames {
-		display: none;
-	}
-	#watchdogslegionwiki {
-		display: none;
-	}
-	#nfsheatwiki {
-		display: none;
-	}
-	#dyinglight2wiki {
-		display: none;
-	}
-	.imghometabcyberpunk2077logo {
-		display: none;
-	}
-	.imghometabwatchdogslegionlogo {
-		display: none;
-	}
-	.imghometabnfsheatlogo {
-		display: none;
-	}
-	.imghometabdyinglight2logo {
-		display: none;
-	}
 }
 
 
@@ -609,7 +581,7 @@ button {
 	font-size: 32px;
 	overflow: hidden;
     text-overflow: ellipsis;
-    max-height: 55%;
+    max-height: 59%;
 }
 
 #cyberpunkwiki {
@@ -652,7 +624,7 @@ button {
 	font-size: 30px;
 	overflow: hidden;
     text-overflow: ellipsis;
-    max-height: 55%;
+    max-height: 60%;
 }
 
 #watchdogslegionwiki {
@@ -662,27 +634,7 @@ button {
 	font-family: dealerplate;
 	color: white;
 	text-decoration: underline;
-}
-
-										#newupdatetemp1 {
-											text-align: center;
-											margin-left: 15px;
-										}
-
-										#newupdatetemparrow1 {
-											text-align: center;
-											margin-left: 15px;
-										}
-
-										#newupdatetemp2 {
-											text-align: right;
-											margin-right: 84px;
-										}
-
-										#newupdatetemparrow2 {
-											text-align: right;
-											margin-right: 150px;
-										}										
+}										
 
 .imghometabnfsheatlogo {
 	width: 100%;
@@ -726,7 +678,7 @@ button {
 	font-size: 40px;
 	overflow: hidden;
     text-overflow: ellipsis;
-    max-height: 55%;
+    max-height: 62%;
 }
 
 .imghometabdyinglight2logo {
@@ -768,7 +720,7 @@ button {
 	font-size: 31px;
 	overflow: hidden;
     text-overflow: ellipsis;
-    max-height: 55%;
+    max-height: 61%;
 }
 
 .imghometabborderlands3logo {
@@ -812,7 +764,7 @@ button {
 	font-size: 32px;
 	overflow: hidden;
     text-overflow: ellipsis;
-    max-height: 55%;
+    max-height: 60%;
 }
 
 .imghometabrdr2logo {
@@ -854,7 +806,7 @@ button {
 	font-size: 35px;
 	overflow: hidden;
     text-overflow: ellipsis;
-    max-height: 55%;
+    max-height: 62%;
 }
 
 .imghometabcodrlogo {
@@ -882,7 +834,7 @@ button {
 #codrwiki {
 	position: absolute;
 	margin-top: 788px;
-	right: 240px;
+	right: 236px;
 	font-family: dealerplate;
 	color: white;
 	text-align: right;
@@ -898,7 +850,7 @@ button {
 	font-size: 36px;
 	overflow: hidden;
     text-overflow: ellipsis;
-    max-height: 55%;
+    max-height: 60%;
 }
 
 .imghometabfifa20logo {
@@ -940,7 +892,7 @@ button {
 	font-size: 34px;
 	overflow: hidden;
     text-overflow: ellipsis;
-    max-height: 55%;
+    max-height: 60%;
 }
 
 .imghometabgridlogo {
@@ -984,7 +936,7 @@ button {
 	font-size: 37px;
 	overflow: hidden;
     text-overflow: ellipsis;
-    max-height: 55%;
+    max-height: 58%;
 }
 
 .imghometabwitcher3logo {
@@ -1011,7 +963,7 @@ button {
 
 #witcher3wiki {
 	position: absolute;
-	left: 185px;
+	left: 175px;
 	margin-top: 785px;
 	font-family: dealerplate;
 	color: white;
@@ -1056,7 +1008,7 @@ button {
 #fh4wiki {
 	position: absolute;
 	margin-top: 788px;
-	right: 235px;
+	right: 230px;
 	font-family: dealerplate;
 	color: white;
 	text-align: right;
@@ -1072,7 +1024,7 @@ button {
 	font-size: 30px;
 	overflow: hidden;
     text-overflow: ellipsis;
-    max-height: 55%;
+    max-height: 60%;
 }
 
 .imghometabmetroexoduslogo {
@@ -1116,5 +1068,93 @@ button {
 	overflow: hidden;
     text-overflow: ellipsis;
     max-height: 55%;
+}
+
+.imghometabgta5logo {
+	width: 100%;
+	height: 250px;
+	background-image: url("../Photos/HomeGamesTab/gta5logo.png");
+	background-repeat: no-repeat;
+	background-size: 270px;
+	margin-top: 10px;
+	margin-right: -10px;
+	position: absolute;
+	background-position: 1410px;
+}
+
+.imghometabgta5 {
+	width: 100%;
+	height: 846px;
+	max-height: 60%;
+	background-image: url("../Photos/HomeGamesTab/gta5t.png");
+	background-repeat: no-repeat;
+	background-size: 1504px;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+#gta5wiki {
+	position: absolute;
+	margin-top: 788px;
+	right: 235px;
+	font-family: dealerplate;
+	color: white;
+	text-align: right;
+	text-decoration: underline;
+}
+
+.gta5textfrombestgames {
+	position: absolute;
+	padding-top: 280px;
+	padding-left: 1250px;
+	margin-right: 60px;
+	font-family: dealerplate;
+	font-size: 33px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 52%;
+}
+
+.imghometabminecraftlogo {
+	width: 100%;
+	height: 100px;
+	background-image: url("../Photos/HomeGamesTab/minecraftlogo.png");
+	background-repeat: no-repeat;
+	background-size: 550px;
+	margin-top: 45px;
+	position: absolute;
+	background-position: 115px;
+}
+
+.imghometabminecraft {
+	width: 100%;
+	height: 846px;
+	max-height: 60%;
+	background-image: url("../Photos/HomeGamesTab/minecraftt.png");
+	background-repeat: no-repeat;
+	background-size: 1504px;
+	margin-top: 0px;
+	background-position: right;
+}
+
+#minecraftwiki {
+	position: absolute;
+	left: 260px;
+	margin-top: 785px;
+	font-family: dealerplate;
+	color: white;
+	text-decoration: underline;
+}
+
+.minecrafttextfrombestgames {
+	position: absolute;
+	padding-top: 190px;
+	padding-right: 1150px;
+	margin-left: 35px;
+	font-family: dealerplate;
+	font-size: 38px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 60%;
 }
 
